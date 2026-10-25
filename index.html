@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Personal Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header>
+    <nav>
+        <div class="logo">My Portfolio</div>
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Toggle navigation"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#activities">Activities</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Home -->
+<section id="home">
+    <div class="home-content">
+
+        <div class="intro">
+            <p>WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm Shan Rhey Mutuc!</h1>
+
+            <h2>IT Student & Aspiring Developer</h2>
+
+            <p>
+                Welcome to my personal portfolio. I am an Information
+                Technology student who enjoys learning programming,
+                creating websites, and developing useful applications.
+                This website showcases my skills, projects, and school
+                activities.
+            </p>
+
+            <a href="#projects" class="button">View My Projects</a>
+            <a href="#about" class="button button-outline">About Me</a>
+        </div>
+
+        <!-- Replace this with your actual image -->
+        <img
+            src="pic.png"
+            alt="My profile photo"
+            class="profile-image"
+            id="profileImage">
+    </div>
+</section>
+
+<!-- About -->
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <p class="section-intro">
+        A short introduction about myself, my education, and my goals.
+    </p>
+
+    <div class="about-content">
+        <p>
+            I am an IT student interested in web development,
+            programming, databases, and modern technology. I enjoy
+            practicing what I learn by creating projects and solving
+            programming problems.
+        </p>
+
+        <p>
+            Through these experiences, I hope to improve my technical
+            skills, become a better developer, and build applications
+            that can help people with everyday tasks.
+        </p>
+
+        <div class="personal-info">
+            <div class="info-box">
+                <h3>Education</h3>
+                <p>Your School Name</p>
+                <p>Information Technology</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Interests</h3>
+                <p>Web Development</p>
+                <p>Programming and Technology</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Strengths</h3>
+                <p>Problem-solving</p>
+                <p>Creativity and teamwork</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Career Goal</h3>
+                <p>To become a skilled IT professional.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2 class="section-title">My Skills</h2>
+
+    <p class="section-intro">
+        Some of the technologies and skills I am learning.
+    </p>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <h3>HTML</h3>
+            <p>Creating the structure and content of websites.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>CSS</h3>
+            <p>Designing layouts, colors, and responsive web pages.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>JavaScript</h3>
+            <p>Adding interactive features to websites.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Python</h3>
+            <p>Practicing programming and backend development.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Database</h3>
+            <p>Learning how to store and manage application data.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Problem-solving</h3>
+            <p>Using logic to understand and solve technical problems.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2 class="section-title">My Projects</h2>
+
+    <p class="section-intro">
+        These are examples of projects I have worked on or am developing.
+        Select a project to learn more.
+    </p>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <span class="project-type">IoT Project</span>
+
+            <h3>LoRa Classroom Monitoring</h3>
+
+            <p>
+                A prototype that uses LoRa communication and RFID
+                attendance to monitor teacher attendance and classroom
+                device signals.
+            </p>
+
+            <a
+                href="HTML/lora.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button">
+                View Project
+            </a>
+        </div>
+
+        <div class="project-card">
+            <span class="project-type">Machine Learning</span>
+
+            <h3>Parking System</h3>
+
+            <p>
+                The Parking Management System is a software application 
+                designed to manage and monitor parking spaces efficiently. 
+                It helps users check available parking slots,
+                 record vehicle entry and exit times, and organize parking 
+                 space assignments.
+            </p>
+
+            <a
+                href="HTML/qualirec.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button">
+                View Project
+            </a>
+        </div>
+
+        <div class="project-card">
+            <span class="project-type">Mobile Application</span>
+
+            <h3>SariSync</h3>
+
+            <p>
+                A mobile inventory application for managing products,
+                tracking stock, scanning barcodes, and recording orders.
+            </p>
+
+            <a
+                href="HTML/sarisync.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button">
+                View Project
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Activities -->
+<section id="activities">
+    <h2 class="section-title">My Activities</h2>
+
+    <p class="section-intro">
+        Browse my HTML exercises, assignments, and other learning
+        activities.
+    </p>
+
+    <div class="activities-container">
+
+        <div class="activity-item">
+            <div>
+                <h3>Activity 1</h3>
+                <p>My first HTML activity.</p>
+            </div>
+
+            <a
+                href="HTML/act1.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button">
+                Open Activity
+            </a>
+        </div>
+
+        <div class="activity-item">
+            <div>
+                <h3>Activity 2</h3>
+                <p>A sample HTML page.</p>
+            </div>
+
+            <a
+                href="HTML/sample.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button">
+                Open Activity
+            </a>
+        </div>
+
+        <div class="activity-item">
+            <div>
+                <h3>Activity 3</h3>
+                <p>Add your activity description here.</p>
+            </div>
+
+            <a
+                href="Mutuc_Finals_Activity2/sample.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button">
+                Open Activity
+            </a>
+        </div>
+
+        <div class="activity-item">
+            <div>
+                <h3>Activity 4</h3>
+                <p>Add another activity description here.</p>
+            </div>
+
+            <a
+                href="sample_1/sample.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button">
+                Open Activity
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>
+        &copy; <span id="year"></span> Your Name |
+        My Personal Portfolio
+    </p>
+</footer>
+
+</body>
+</html>

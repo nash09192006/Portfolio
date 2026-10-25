@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+}
+
+.container{
+    border: 1px solid;
+    padding: 10px;
+    flex: 2;
+    margin-right: 10px;
+}
+
+.container1{
+    border: 1px solid;
+    width: 50%;
+    flex: 4;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+th{
+    padding: 10px;
+}

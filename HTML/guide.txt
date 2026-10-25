@@ -1,0 +1,24 @@
+Title: My student profile
+above: welcome to my interactive profile
+
+student information:
+name
+age
+course
+
+when button click title will change
+when button double click title will change
+
+2nd button hide profile
+3rd button show profile
+
+meesage will change when something click or hover
+
+------------------------------------------------------
+
+Choose course (select)
+it will change the course when select
+
+-----------------------------------------------------
+
+table

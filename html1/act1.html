@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            border: 1px solid;
+            width: 70%;
+            padding: 20px;
+            margin-right: auto;
+            margin-left:auto;
+            text-align: center;
+        }
+        .container .infoclass{
+            text-align: left;
+        }
+        .container .container_1{
+            text-align: left;
+        }
+        .selectclass{
+            width: 100%;
+            height: 30px;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+         th{
+           padding-left: 20px;
+           padding-right: 20px;
+         }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+   
+    <div class="container">
+
+           <h1 id="title">Welcome, Student!</h1>
+    <p>Welcome to my interactive profile</p>
+
+    <div id="info" class="infoclass">
+      <h3>Student Information</h3>
+      <p>Name: Shan Rhey Mutuc</p>
+      <p id="course">Course:BSCS</p>
+      <p>Year Level: 3rd Year</p>
+    </div>
+
+    <button id="btnclick">Change title</button>
+    <button id="hide">Hide Profile</button>
+    <button id="show">Show Profile</button><br>
+
+    <p id="state1"></p>
+    
+    <div class="container_1">
+        <label for="">Course</label><br><br>
+        <select name="" id="selectid" class="selectclass">
+            <option value="BSCS">BSCS</option>
+            <option value="BSIT">BSIT</option>
+            <option value="BSHM">BSHM</option>
+        </select>
+
+        <p id="state2">Status</p>
+
+    </div>
+
+    <table border="2">
+        <label for="">SAMPLE TABLE</label>
+        <tr >
+            <th>sample</th>
+            <th>sample</th>
+            <th>sample</th>
+            <th>sample</th>
+            <th>sample</th>
+        </tr>
+        <tr>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+        </tr>
+        <tr>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+        </tr>
+         <tr>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+        </tr>
+         <tr>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+        </tr>
+         <tr>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+        </tr>   
+    </table><br>
+
+    <button id="btnodd">Apply Odd Rows</button> 
+
+    <button id="btneven">Apply Even Rows</button>
+
+    <p id="state3">status</p>
+    
+
+    </div>
+ 
+    
+    
+
+<script src="act1.js"></script>
+</body>
+</html>
